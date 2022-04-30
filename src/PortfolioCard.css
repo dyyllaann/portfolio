@@ -7,4 +7,20 @@
 img {
   width: calc(23.9vh * 2);
   height: calc(10vh * 2);
+  filter: grayscale(50%) brightness(0.7);
+}
+
+img:hover {
+  animation: fadeInAnimation ease 0.7s;
+  filter: none;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    filter: grayscale(50%) brightness(0.7);
+  }
+
+  100% {
+    filter: none;
+  }
 }

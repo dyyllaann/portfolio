@@ -1,7 +1,10 @@
 import './App.css';
 // import me from './me.jpeg';
-import about from './about.png';
+// import about from './about.png';
+import todoScreen from './todoScreen.png';
 import me from './drums.png';
+import surfAppScreen from './SurfAppScreen.png';
+import dashScreen from './DashScreen.png';
 import downArrow from './down-arrow.png';
 import React, { useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
@@ -157,20 +160,43 @@ function Portfolio() {
   return (
 		<section id="portfolio">
 			<h1>Portfolio Section</h1>
-			<div className='portfolio-grid'>
-				<PortfolioCard 
-          name={"To-Do List"} 
-          description={"A to-do list based off of the design for kosmotime by this guy on dribbble.com"}
-          />
-				<PortfolioCard 
-          name={"Real Estate Productivity App"} 
-          description={"A to-do list based off of the design for kosmotime by this guy on dribbble.com"}
-          image={reAppScreen}
-          /> 
-				<PortfolioCard 
-          name={"Browser Dashboard"} 
-          description={"A to-do list based off of the design for kosmotime by this guy on dribbble.com"}
-          /> 
+			<div className="portfolio-grid">
+				<PortfolioCard
+					name={"To-Do List"}
+					description={
+						"A to-do list inspired by Mik Skuza's design for KosmoTime."
+					}
+					tools={"JavaScript ES6, React, Node"}
+					image={todoScreen}
+					link="https://dyyllaann.github.io/todo/"
+				/>
+				<PortfolioCard
+					name={"Real Estate Productivity App"}
+					description={
+						"A productivity tool that calculates deadlines, autopopulates a contract summary, and saves the contract summary to PDF."
+					}
+					tools={"React, Node, Material UI, pdfmake"}
+					image={reAppScreen}
+					link="https://main.dvznkfo3mus0h.amplifyapp.com/"
+				/>
+				<PortfolioCard
+					name={"Browser Dashboard"}
+					description={
+						"A browser dashboard integrated with Google that shows upcoming events, tasks, and projects."
+					}
+					tools={"JavaScript, HTML, CSS, Google Calendar API, Auth0, Moment.js"}
+					image={dashScreen}
+				/>
+				<PortfolioCard
+					name={"Surf Forecast Alert"}
+					description={
+						"An app that scrapes NOAA data and sends a text alert whenever conditions meet the ideal criteria."
+					}
+					tools={"Python"}
+					libraries={"BeautifulSoup, smtplib, time, schedule"}
+					image={surfAppScreen}
+					link="https://github.com/dyyllaann/surf-app"
+				/>
 			</div>
 		</section>
 	);
@@ -182,25 +208,37 @@ function Contact() {
 			<div>
 				<h1>Contact Section</h1>
 			</div>
+      <div>
+        <h2>
+          Dylan Arveson
+        </h2>
+      </div>
 			<div>
-        <div>
-          <a
-            href="www.linkedin.com/in/dylan-arveson"
-            rel="noreferrer"
-            target="_blank"
-          >
-            linkedin.com/in/dylan-arveson
-          </a>
-        </div>
-        <div>
-          <a
-            href="mailto:dylan.arveson@gmail.com?body=Hey Dylan!"
-            rel="noreferrer"
-            target="_blank"
-          >
-            mailto: dylan.arveson@gmail.com
-          </a>
-        </div>
+				<a href="www.github.com/dyyllaann" rel="noreferrer" target="_blank">
+					github.com/dyyllaann
+				</a>
+				<br />
+				<a href="www.twitter.com/dylancodes" rel="noreferrer" target="_blank">
+					twitter.com/dylancodes
+				</a>
+				<br />
+				<a
+					href="www.linkedin.com/in/dylan-arveson"
+					rel="noreferrer"
+					target="_blank"
+				>
+					linkedin.com/in/dylan-arveson
+				</a>
+				<br />
+			</div>
+			<div>
+				<a
+					href="mailto:dylan.arveson@gmail.com?body=Hey Dylan!"
+					rel="noreferrer"
+					target="_blank"
+				>
+					mailto: dylan.arveson@gmail.com
+				</a>
 			</div>
 		</section>
 	);

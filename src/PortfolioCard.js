@@ -7,20 +7,16 @@ export default function PortfolioCard(props) {
   }
 
   return (
-    <div>
-      <div className="imagePlaceholder">
-        <img src={props.image} alt="Preview"/>
-      </div>
-      <h2>
-        {props.name}
-      </h2>
-      <p style={description}>
-        {props.description}
-      </p>
-      <br />
-      <p style={description}>
-        {props.description}
-      </p>
-    </div>
-  )
+		<div>
+			<div className="imagePlaceholder">
+				<a href={props.link} rel="noreferrer" target={"_blank"}>
+					<img src={props.image} alt="Preview" />
+				</a>
+			</div>
+			<h2>{props.name}</h2>
+			<p style={description}>{props.description}</p>
+			<br />
+			<p style={description}>Tools: {props.tools}</p>
+		</div>
+	);
 }
