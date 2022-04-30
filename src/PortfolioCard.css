@@ -1,0 +1,10 @@
+.imagePlaceholder {
+  width: calc(23.9vh * 2);
+  height: calc(10vh * 2);
+  border: 3px solid #000;
+}
+
+img {
+  width: calc(23.9vh * 2);
+  height: calc(10vh * 2);
+}
