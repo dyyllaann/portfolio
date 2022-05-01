@@ -1,7 +1,6 @@
 nav {
   font-family: 'Josefin Slab', serif;
   text-decoration: none;
-  /* padding: 20px; */
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -35,3 +34,9 @@ nav > * {
   transform: scaleX(1);
   transform-origin: 0;
 }
+
+/* @media only screen and (max-width: 600px) {
+  nav > * {
+    font-size: 1rem;
+  }
+} */

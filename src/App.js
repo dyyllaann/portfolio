@@ -112,8 +112,11 @@ function About() {
           <br />
           <br />
           My tech stack includes: <br />
-          HTML5, CSS3, JS ES6 React,
-					Node.js Material UI Python VS Code, Git, AWS 
+          HTML5, CSS3, JS ES6 <br />
+          React, Node.js <br />
+          Material UI <br />
+          Python <br />
+          VS Code, Git, AWS 
           <br />
           <br />
           Currently I'm learning: <br />
