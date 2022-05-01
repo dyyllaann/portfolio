@@ -45,8 +45,6 @@ section {
   min-height: 90vh;
   display: flex;
   flex-direction: column;
-  /* align-content: space-between; */
-  /* justify-content: space-between; */
   margin-bottom: 5vh;
 }
 
@@ -60,11 +58,8 @@ section > div {
 }
 
 .portrait {
-  /* filter: sepia(50%); */
-  /* max-width: 20%; */
   max-height: 30vh;
   width: auto;
-  /* height: auto; */
 }
 
 h1 {

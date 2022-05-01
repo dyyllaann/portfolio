@@ -214,16 +214,16 @@ function Contact() {
         </h2>
       </div>
 			<div>
-				<a href="www.github.com/dyyllaann" rel="noreferrer" target="_blank">
+				<a href="https://www.github.com/dyyllaann" rel="noreferrer" target="_blank">
 					github.com/dyyllaann
 				</a>
 				<br />
-				<a href="www.twitter.com/dylancodes" rel="noreferrer" target="_blank">
+				<a href="https://www.twitter.com/dylancodes" rel="noreferrer" target="_blank">
 					twitter.com/dylancodes
 				</a>
 				<br />
 				<a
-					href="www.linkedin.com/in/dylan-arveson"
+					href="https://www.linkedin.com/in/dylan-arveson"
 					rel="noreferrer"
 					target="_blank"
 				>
