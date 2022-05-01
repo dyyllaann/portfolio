@@ -28,7 +28,7 @@ function Header() {
 					let hero = document.getElementById("hero");
 					e.preventDefault();
 					hero && hero.scrollIntoView({ behavior: "smooth", block: "end" });
-					window.history.pushState("hero", "hero", "/hero");
+					window.history.pushState("", "", "/");
 				}}
 			>
 				Dylan Arveson
@@ -97,60 +97,36 @@ function Hero() {
 }
 
 function About() {
-  const style = {
-		fontFamily: "courier",
-		backgroundColor: "#22272e",
-    color: "#adbac7",
-		border: "1px solid black",
-	};
+
   return (
 		<section id="about">
-      <div>
-        <h1>About Section</h1>
-      </div>
-			{/* <img id="about-image" src={about} alt="About me." /> */}
-      <div>
-        <p style={style} id="about-paragraph">
-          ### Hi there! I'm Dylan 👋  <br /> <br />
-          My first exposure to web development was
-          teaching myself basic HTML at 12 years old. Since then, I've created
-          dozens of websites and apps that make my life easier. I had always
-          considered programming a hobby and had never seriously pursued it. Now,
-          20 years later, it's time to turn what I love doing into a career. 
-          <br /><br />
-          I am
-          a graduate of Wenatchee Valley College, where I studied Math, Business
-          Communication, and English. While attending, I was a recurring member of
-          the Dean's List, an active member of the Phi Theta Kappa Honor Society,
-          and graduated with a 3.7 GPA. Although I had never taken a credited CS
-          class in college, I began learning Python in my spare time so I could
-          write apps that streamlined my mathemetics courses. 
-          <br /><br />
-          In 2019, I began
-          work as a real estate broker. While working as a broker, I examined ways
-          to apply my programming background to my day-to-day tasks. Most notably,
-          this includes writing software that automates many of the repeatable
-          processes of a running a real estate business, such as CRM, marketing,
-          and transaction coordination. 
-          <br /><br />
-          In 2021, I began learning full-stack web
-          development via The Odin Project. The Odin Project is a self-paced, free
-          open source coding curriculum. As an experiential learner, The Odin
-          Project has been immensely valuable in providing a path and building a
-          portfolio. The majority of repos here are from The Odin Project's
-          curriculum, while many of my personal apps are hosted privately. 
-          <br /><br />
-          At this
-          stage (April 2022), I've developed two React apps, and I've begun
-          learning backend with MongoDB and Express. 
-          <br /><br />
-          My main interests are
-          automation, PropTech, and data. My dream job would be a development role
-          at a PropTech or SaaS company that values creative, collaborative input,
-          that employs my multidisciplinary background, and that makes a positive
-          difference in people's lives.
-        </p>
-      </div>
+			<div>
+				<h1>About Section</h1>
+			</div>
+			<div id="about-paragraph">
+				<p>
+					### Hi there! I'm Dylan 👋 <br /> <br />
+					I am a licensed real estate broker and full-stack developer from Port
+					Townsend, Washington. When I'm not helping clients buy or sell a home,
+					I write applications to make my workflow easier.
+          <br />
+          <br />
+          My tech stack includes: <br />
+          HTML5, CSS3, JS ES6 React,
+					Node.js Material UI Python VS Code, Git, AWS 
+          <br />
+          <br />
+          Currently I'm learning: <br />
+					MongoDB and Express, to complete my MERN stack <br />
+          Tailwind CSS <br />
+          Google's UX Design course 
+          <br />
+          <br />
+          In my free time, you can find me in the mountains or waters of the 
+          Pacific Northwest, creating music, motorcycling, or tinkering on a new 
+          project. 
+				</p>
+			</div>
 		</section>
 	);
 }
