@@ -31,7 +31,7 @@ function Header() {
 					window.history.pushState("", "", "/");
 				}}
 			>
-				Dylan Arveson
+				{window.matchMedia("(max-width: 550px)").matches ? 'D.A.' : 'Dylan Arveson'}
 			</a>
 			<a
 				className="expand"
