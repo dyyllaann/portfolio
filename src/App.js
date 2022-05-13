@@ -1,16 +1,20 @@
 import './App.css';
 // import me from './me.jpeg';
 // import about from './about.png';
-import todoScreen from './todoScreen.png';
+
+// Image imports
 import me from './drums.png';
-import surfAppScreen from './SurfAppScreen.png';
-import dashScreen from './DashScreen.png';
 import downArrow from './down-arrow.png';
+import todoScreen from './todoScreen.png';
+import reAppScreen from "./re-app-screen.png";
+import dashScreen from './DashScreen.png';
+import surfAppScreen from './SurfAppScreen.png';
+import weatherAppScreen from './weather-app-screen.png';
+
 import React, { useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
 import PortfolioCard from './PortfolioCard';
 
-import reAppScreen from "./re-app-screen.png";
 
 function Header() {
   useEffect(() => {
@@ -113,14 +117,14 @@ function About() {
           <br />
           My tech stack includes: <br />
           HTML5, CSS3, JS ES6 <br />
-          React, Node.js <br />
+          React, Node.js, Express <br />
           Material UI <br />
           Python <br />
-          VS Code, Git, AWS 
+          VS Code, Git, AWS, Figma
           <br />
           <br />
           Currently I'm learning: <br />
-					MongoDB and Express, to complete my MERN stack <br />
+					MongoDB to complete my MERN stack <br />
           Tailwind CSS <br />
           Google's UX Design course 
           <br />
@@ -175,6 +179,15 @@ function Portfolio() {
 					libraries={"BeautifulSoup, smtplib, time, schedule"}
 					image={surfAppScreen}
 					link="https://github.com/dyyllaann/surf-app"
+				/>
+				<PortfolioCard
+					name={"Weather App"}
+					description={
+						"An app that allows users to access OpenWeatherMap's API to get a real-time weather report."
+					}
+					tools={"JavaScript, HTML, CSS + flex, OpenWeatherMap API"}
+					image={weatherAppScreen}
+					link="https://github.com/dyyllaann/weather-app"
 				/>
 			</div>
 		</section>
