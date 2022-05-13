@@ -1,15 +1,13 @@
 import './App.css';
-// import me from './me.jpeg';
-// import about from './about.png';
 
 // Image imports
-import me from './drums.png';
-import downArrow from './down-arrow.png';
-import todoScreen from './todoScreen.png';
-import reAppScreen from "./re-app-screen.png";
-import dashScreen from './DashScreen.png';
-import surfAppScreen from './SurfAppScreen.png';
-import weatherAppScreen from './weather-app-screen.png';
+import me from './images/drums.png';
+import downArrow from './images/down-arrow.png';
+import todoScreen from './images/todo-screen.png';
+import reScreen from "./images/re-screen.png";
+import dashScreen from './images/dash-screen.png';
+import surfScreen from './images/surf-screen.png';
+import weatherScreen from './images/weather-screen.png';
 
 import React, { useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
@@ -159,7 +157,7 @@ function Portfolio() {
 						"A productivity tool that calculates deadlines, autopopulates a contract summary, and saves the contract summary to PDF."
 					}
 					tools={"React, Node, Material UI, pdfmake"}
-					image={reAppScreen}
+					image={reScreen}
 					link="https://main.dvznkfo3mus0h.amplifyapp.com/"
 				/>
 				<PortfolioCard
@@ -177,7 +175,7 @@ function Portfolio() {
 					}
 					tools={"Python"}
 					libraries={"BeautifulSoup, smtplib, time, schedule"}
-					image={surfAppScreen}
+					image={surfScreen}
 					link="https://github.com/dyyllaann/surf-app"
 				/>
 				<PortfolioCard
@@ -186,7 +184,7 @@ function Portfolio() {
 						"An app that allows users to access OpenWeatherMap's API to get a real-time weather report."
 					}
 					tools={"JavaScript, HTML, CSS + flex, OpenWeatherMap API"}
-					image={weatherAppScreen}
+					image={weatherScreen}
 					link="https://github.com/dyyllaann/weather-app"
 				/>
 			</div>
