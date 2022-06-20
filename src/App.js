@@ -8,6 +8,7 @@ import reScreen from "./images/re-screen.png";
 import dashScreen from './images/dash-screen.png';
 import surfScreen from './images/surf-screen.png';
 import weatherScreen from './images/weather-screen.png';
+import subPopClone from './images/sub-pop-clone.gif';
 
 import React, { useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
@@ -142,6 +143,15 @@ function Portfolio() {
 		<section id="portfolio">
 			<h1>Portfolio Section</h1>
 			<div className="portfolio-grid">
+				<PortfolioCard
+					name={"Sub Pop Mega Mart Clone"}
+					description={
+						"Clone of Sub Pop's online store, including login and Inventory Management System."
+					}
+					tools={"Express, Node, MongoDB / Mongoose"}
+					image={subPopClone}
+					// link="https://dyyllaann.github.io/todo/"
+				/>
 				<PortfolioCard
 					name={"To-Do List"}
 					description={
