@@ -14,6 +14,11 @@ section > div {
   flex: 1;
 }
 
+.devicon {
+  width: 85px;
+  height: 85px;
+}
+
 .downArrow {
   height: 6rem;
   width: auto;
@@ -56,6 +61,13 @@ h1 {
   margin-top: auto;
 }
 
+i {
+  display: inline-block;
+  padding: 10px;
+  font-size: 85px;
+  margin: 0 auto;
+}
+
 nav {
   height: 5vh;
   font-family: 'Josefin Slab', serif;
@@ -91,7 +103,7 @@ nav > * {
 }
 
 #contact > * {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier, monospace;
 }
 
 #contact a {

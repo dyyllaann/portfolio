@@ -108,29 +108,63 @@ function About() {
 			</div>
 			<div id="about-paragraph">
 				<p>
-					### Hi there! I'm Dylan 👋 <br /> <br />
-					I am a licensed real estate broker and full-stack developer from Port
-					Townsend, Washington. When I'm not helping clients buy or sell a home,
-					I write applications to make my workflow easier.
-          <br />
-          <br />
-          My tech stack includes: <br />
-          HTML5, CSS3, JS ES6 <br />
-          React, Node.js, Express <br />
-          Material UI <br />
-          Python <br />
-          VS Code, Git, AWS, Figma
-          <br />
-          <br />
-          Currently I'm learning: <br />
-					MongoDB to complete my MERN stack <br />
-          Tailwind CSS <br />
-          Google's UX Design course 
-          <br />
-          <br />
-          In my free time, you can find me in the mountains or waters of the 
-          Pacific Northwest, creating music, motorcycling, or tinkering on a new 
-          project. 
+					### Hi there! I'm Dylan 👋 <br /> <br />I am a full-stack developer 
+					from Port Townsend, Washington.
+				</p>
+				<br />
+				<p>
+					My tech stack includes: <br />
+				</p>
+				{/* <i class="devicon-amazonwebservices-plain-wordmark"></i>
+				<i class="devicon-bootstrap-plain-wordmark"></i>
+				<i class="devicon-css3-plain"></i>
+				<i class="devicon-express-original-wordmark"></i>
+				<i class="devicon-figma-plain"></i>
+				<i class="devicon-firebase-plain"></i>
+				<i class="devicon-git-plain-wordmark"></i>
+				<i class="devicon-graphql-plain-wordmark"></i>
+				<i class="devicon-html5-plain-wordmark"></i>
+				<i class="devicon-javascript-plain"></i>
+				<i class="devicon-jest-plain"></i>
+				<i class="devicon-mongodb-plain-wordmark"></i>
+				<i class="devicon-nodejs-plain-wordmark"></i>
+				<i class="devicon-npm-original-wordmark"></i>
+				<i class="devicon-photoshop-line"></i>
+				<i class="devicon-python-plain-wordmark"></i>
+				<i class="devicon-react-original-wordmark"></i>
+				<i class="devicon-vscode-plain-wordmark"></i>
+				<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" alt="" class="devicon"/>
+				<i class="devicon-webpack-plain-wordmark"></i>
+				<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-plain-wordmark.svg" /> */}
+				<br />
+				<h2>FRONTEND:</h2>
+				<p>
+					HTML5, CSS3, JS ES6, React, Material UI
+				</p>
+				<br />
+				<h2>BACKEND:</h2>	
+				<p>
+					Node.js, Express, MongoDB, Mongoose, GraphQL
+				</p> 
+				<br />
+				<h2>TOOLS:</h2>
+				<p>
+					VS Code, Git, AWS, Figma, Jest, Photoshop
+				</p>
+				<br />
+				<h2>OTHER:</h2>
+				<p>
+					Python 
+				</p>
+				<br />
+				<p>
+					In addition, I'm currently enrolled in Google's UX Design course.
+					</p>
+				<br />
+				<p>
+					In my free time, you can find me in the mountains or waters of the
+					Pacific Northwest, creating music, motorcycling, or tinkering on a new
+					project.
 				</p>
 			</div>
 		</section>
@@ -208,17 +242,42 @@ function Contact() {
 			<div>
 				<h1>Contact Section</h1>
 			</div>
-      <div>
-        <h2>
-          Dylan Arveson
-        </h2>
-      </div>
 			<div>
-				<a href="https://www.github.com/dyyllaann" rel="noreferrer" target="_blank">
+				<h2>Dylan Arveson</h2>
+				<br />
+				<p>
+					Feel free to reach out any time! I'm currently open to work
+					opportunities and would love to chat. 
+				</p>
+				<br />
+				<p>	
+					Just send me an email at the following:
+				</p>
+				<a
+					href="mailto:dylan.arveson@gmail.com?body=Hey Dylan!"
+					rel="noreferrer"
+					target="_blank"
+				>
+					mailto: dylan.arveson@gmail.com
+				</a>
+				<br />
+				<br />
+				<p>
+					You can also check out my social accounts:
+				</p>
+				<a
+					href="https://www.github.com/dyyllaann"
+					rel="noreferrer"
+					target="_blank"
+				>
 					github.com/dyyllaann
 				</a>
 				<br />
-				<a href="https://www.twitter.com/dylancodes" rel="noreferrer" target="_blank">
+				<a
+					href="https://www.twitter.com/dylancodes"
+					rel="noreferrer"
+					target="_blank"
+				>
 					twitter.com/dylancodes
 				</a>
 				<br />
@@ -231,15 +290,7 @@ function Contact() {
 				</a>
 				<br />
 			</div>
-			<div>
-				<a
-					href="mailto:dylan.arveson@gmail.com?body=Hey Dylan!"
-					rel="noreferrer"
-					target="_blank"
-				>
-					mailto: dylan.arveson@gmail.com
-				</a>
-			</div>
+			<div></div>
 		</section>
 	);
 }
