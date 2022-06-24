@@ -184,7 +184,7 @@ function Portfolio() {
 					}
 					tools={"Express, Node, MongoDB / Mongoose"}
 					image={subPopClone}
-					// link="https://dyyllaann.github.io/todo/"
+					link="https://sub-pop-clone.herokuapp.com/catalog"
 				/>
 				<PortfolioCard
 					name={"To-Do List"}
