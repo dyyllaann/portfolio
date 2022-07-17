@@ -3,7 +3,8 @@ import './App.css';
 // Image imports
 import me from './images/drums.png';
 import downArrow from './images/down-arrow.png';
-import todoScreen from './images/todo-screen.png';
+// import todoScreen from './images/todo-screen.png';
+import kosmotimeClone from './images/kosmotime-clone.gif';
 import reScreen from "./images/re-screen.png";
 import dashScreen from './images/dash-screen.png';
 import surfScreen from './images/surf-screen.png';
@@ -187,13 +188,13 @@ function Portfolio() {
 					link="https://sub-pop-clone.herokuapp.com/catalog"
 				/>
 				<PortfolioCard
-					name={"To-Do List"}
+					name={"KosmoTime Clone"}
 					description={
-						"A to-do list inspired by Mik Skuza's design for KosmoTime."
+						"Clone of Nicolas Vandenberghe and Martin Plouy's KosmoTime app."
 					}
-					tools={"JavaScript ES6, React, Node"}
-					image={todoScreen}
-					link="https://dyyllaann.github.io/todo/"
+					tools={"React, JavaScript, Vanilla CSS, Node, npm"}
+					image={kosmotimeClone}
+					link="https://www.github.com/dyyllaann/kosmotime-clone"
 				/>
 				<PortfolioCard
 					name={"Real Estate Productivity App"}
