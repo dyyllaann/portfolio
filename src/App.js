@@ -194,7 +194,7 @@ function Portfolio() {
 					}
 					tools={"React, JavaScript, Vanilla CSS, Node, npm"}
 					image={kosmotimeClone}
-					link="https://www.github.com/dyyllaann/kosmotime-clone"
+					link="https://kosmotime-clone.herokuapp.com/"
 				/>
 				<PortfolioCard
 					name={"Real Estate Productivity App"}
