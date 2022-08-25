@@ -52,9 +52,6 @@ h1 {
   display: flex;
   flex: 1;
   justify-content: space-between;
-  /* flex-direction: column; */
-  /* margin-top: auto; */
-  /* align-content: flex-end; */
 }
 
 .hero-bottom > * {
@@ -91,8 +88,6 @@ nav > * {
 }
 
 #about-paragraph {
-  /* margin-top: -20px; */
-  /* margin-bottom: 20px; */
   font-family: "courier";
   color: "#adbac7";
 }

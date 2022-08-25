@@ -1,20 +1,18 @@
 import './App.css';
 
+import React, { useEffect } from "react";
+import { BrowserRouter } from "react-router-dom";
+import PortfolioCard from './PortfolioCard';
+
 // Image imports
 import me from './images/drums.png';
 import downArrow from './images/down-arrow.png';
-// import todoScreen from './images/todo-screen.png';
 import kosmotimeClone from './images/kosmotime-clone.gif';
 import reScreen from "./images/re-screen.png";
 import dashScreen from './images/dash-screen.png';
 import surfScreen from './images/surf-screen.png';
 import weatherScreen from './images/weather-screen.png';
 import subPopClone from './images/sub-pop-clone.gif';
-
-import React, { useEffect } from "react";
-import { BrowserRouter } from "react-router-dom";
-import PortfolioCard from './PortfolioCard';
-
 
 function Header() {
   useEffect(() => {
@@ -116,6 +114,7 @@ function About() {
 				<p>
 					My tech stack includes: <br />
 				</p>
+				{/* ICONS */}
 				{/* <i class="devicon-amazonwebservices-plain-wordmark"></i>
 				<i class="devicon-bootstrap-plain-wordmark"></i>
 				<i class="devicon-css3-plain"></i>
