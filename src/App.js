@@ -88,7 +88,18 @@ function Hero() {
       </div>
       <div className="hero-bottom">
         <div>
-          <img className="downArrow" src={downArrow} alt="Bold arrow pointing down." />
+					<a
+						className="expand"
+						href="/"
+						onClick={(e) => {
+							let about = document.getElementById("about");
+							e.preventDefault();
+							about && about.scrollIntoView({ behavior: "smooth", block: "end" });
+							window.history.pushState("about", "about", "/about");
+						}}
+					>
+						<img className="downArrow" src={downArrow} alt="Bold arrow pointing down." />
+					</a>
         </div>
         <div className="header-right">
           <h1>Dylan Arveson</h1>

@@ -1,22 +1,26 @@
 .imagePlaceholder {
   width: calc(23.9vh * 2);
-  height: calc(10vh * 2);
+  height: 20vh;
   border: 3px solid #000;
   display: flex;
   justify-content: center;
   background-color: rgba(0, 32, 36, 1);
 }
 
-img {
-  width: auto;
-  text-align: center;
-  height: calc(10vh * 2);
+.imagePlaceholder * img {
+  height: 20vh;
+  max-width: min-content;
   filter: grayscale(50%) brightness(0.7);
 }
 
-img:hover {
+.imagePlaceholder * img:hover {
   animation: fadeInAnimation ease 0.7s;
   filter: none;
+}
+
+img {
+  width: auto;
+  text-align: center;
 }
 
 @keyframes fadeInAnimation {
