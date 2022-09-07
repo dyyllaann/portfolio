@@ -4,7 +4,6 @@
 
 section {
   min-height: 90vh;
-  max-height: 90vh;
   display: flex;
   flex-direction: column;
   margin-bottom: 5vh;
@@ -133,6 +132,10 @@ nav > * {
   justify-content: space-between;
   flex-wrap: wrap;
   overflow: scroll;
+}
+
+.portfolio-grid--item {
+  margin-bottom: 15px;
 }
 
 @media only screen and (max-width: 600px) {

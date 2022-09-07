@@ -7,7 +7,7 @@ export default function PortfolioCard(props) {
   }
 
   return (
-		<div>
+		<div className="portfolio-grid--item">
 			<div className="imagePlaceholder">
 				<a href={props.link} rel="noreferrer" target={"_blank"}>
 					<img src={props.image} alt="Preview" />
