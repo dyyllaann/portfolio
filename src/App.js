@@ -10,7 +10,8 @@ import downArrow from './images/down-arrow.png';
 import kosmotimeClone from './images/kosmotime-clone.gif';
 import reScreen from "./images/re-screen.png";
 import dashScreen from './images/dash-screen.png';
-import surfScreen from './images/surf-screen.png';
+// import surfScreen from './images/surf-screen.png';
+import membersScreen from './images/members-screen.png';
 import weatherScreen from './images/weather-screen.png';
 import subPopClone from './images/sub-pop-clone.gif';
 
@@ -81,7 +82,7 @@ function Hero() {
 	return (
     <section id="hero">
       <div className="header-left">
-        <h1>Designer<br/>&amp; Developer</h1>
+        <h1>Full Stack Developer</h1>
       </div>
       <div>
         <img className="portrait" src={me} alt="me" />
@@ -118,7 +119,7 @@ function About() {
 			</div>
 			<div id="about-paragraph">
 				<p>
-					### Hi there! I'm Dylan 👋 <br /> <br />I am a full-stack developer 
+					### Hi there! I'm Dylan 👋 <br /> <br />I am a full stack (MERN) developer 
 					from Port Townsend, Washington.
 				</p>
 				<br />
@@ -150,27 +151,22 @@ function About() {
 				<br />
 				<h2>FRONTEND:</h2>
 				<p>
-					HTML5, CSS3, JS ES6, React, Material UI
+					React, Material UI, JavaScript ES6, Pug, HTML5, CSS3
 				</p>
 				<br />
 				<h2>BACKEND:</h2>	
 				<p>
-					Node.js, Express, MongoDB, Mongoose, GraphQL
+					Node.js, Express, MongoDB, Mongoose, Python
 				</p> 
 				<br />
 				<h2>TOOLS:</h2>
 				<p>
-					VS Code, Git, AWS, Figma, Jest, Photoshop
-				</p>
-				<br />
-				<h2>OTHER:</h2>
-				<p>
-					Python 
+					AWS, Firebase, Figma, Jest, Git, VS Code, Photoshop
 				</p>
 				<br />
 				<p>
 					In addition, I'm currently enrolled in Google's UX Design course.
-					</p>
+				</p>
 				<br />
 				<p>
 					In my free time, you can find me in the mountains or waters of the
@@ -188,6 +184,15 @@ function Portfolio() {
 		<section id="portfolio">
 			<h1>Portfolio Section</h1>
 			<div className="portfolio-grid">
+				<PortfolioCard
+					name={"Members Only / 'HushBook'"}
+					description={
+						"A social media app that allows users to create an account and post anonymously."
+					}
+					tools={"Express, Node, MongoDB / Mongoose"}
+					image={membersScreen}
+					link="https://dyyllaann-members-only.herokuapp.com/"
+				/>
 				<PortfolioCard
 					name={"Sub Pop Mega Mart Clone"}
 					description={
@@ -218,20 +223,10 @@ function Portfolio() {
 				<PortfolioCard
 					name={"Browser Dashboard"}
 					description={
-						"A browser dashboard integrated with Google that shows upcoming events, tasks, and projects."
+						"A browser dashboard integrated with Google that shows upcoming events, tasks, and projects. (Currently offline)"
 					}
 					tools={"JavaScript, HTML, CSS, Google Calendar API, Auth0, Moment.js"}
 					image={dashScreen}
-				/>
-				<PortfolioCard
-					name={"Surf Forecast Alert"}
-					description={
-						"An app that scrapes NOAA data and sends a text alert whenever conditions meet the ideal criteria."
-					}
-					tools={"Python"}
-					libraries={"BeautifulSoup, smtplib, time, schedule"}
-					image={surfScreen}
-					link="https://github.com/dyyllaann/surf-app"
 				/>
 				<PortfolioCard
 					name={"Weather App"}

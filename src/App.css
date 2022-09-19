@@ -48,7 +48,6 @@ h1 {
 }
 
 .hero-bottom {
-  /* margin-top: -20vh; */
   display: flex;
   flex: 1;
   justify-content: space-between;
@@ -66,6 +65,7 @@ i {
 }
 
 nav {
+  min-height: 2em;
   height: 5vh;
   font-family: 'Josefin Slab', serif;
   text-decoration: none;
