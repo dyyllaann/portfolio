@@ -119,8 +119,16 @@ function About() {
 			</div>
 			<div id="about-paragraph">
 				<p>
-					### Hi there! I'm Dylan 👋 <br /> <br />I am a full stack (MERN) developer 
-					from Port Townsend, Washington.
+					### Hi there! I'm Dylan 👋 <br /> <br />I am a full stack (MERN)
+					developer from Port Townsend, Washington.
+				</p>
+				<br />
+				<p>
+					My first exposure to web development was teaching myself basic HTML at
+					12 years old. Since then, I've created dozens of websites and apps
+					that make my life easier. I had always considered programming a hobby
+					and had never seriously pursued it. Now, 20 years later, it's time to
+					turn what I love doing into a career.
 				</p>
 				<br />
 				<p>
@@ -150,23 +158,15 @@ function About() {
 				<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-plain-wordmark.svg" /> */}
 				<br />
 				<h2>FRONTEND:</h2>
-				<p>
-					React, Material UI, JavaScript ES6, Pug, HTML5, CSS3
-				</p>
+				<p>React, Material UI, JavaScript ES6, Pug, HTML5, CSS3</p>
 				<br />
-				<h2>BACKEND:</h2>	
-				<p>
-					Node.js, Express, MongoDB, Mongoose, Python
-				</p> 
+				<h2>BACKEND:</h2>
+				<p>Node.js, Express, MongoDB, Mongoose, Python</p>
 				<br />
 				<h2>TOOLS:</h2>
-				<p>
-					AWS, Firebase, Figma, Jest, Git, VS Code, Photoshop
-				</p>
+				<p>AWS, Firebase, Figma, Jest, Git, VS Code, Photoshop</p>
 				<br />
-				<p>
-					In addition, I'm currently enrolled in Google's UX Design course.
-				</p>
+				<p>In addition, I'm currently enrolled in Google's UX Design course.</p>
 				<br />
 				<p>
 					In my free time, you can find me in the mountains or waters of the
