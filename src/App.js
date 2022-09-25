@@ -127,7 +127,7 @@ function About() {
 					My tech stack includes: <br />
 				</p>
 				{/* ICONS */}
-				{/* <i class="devicon-amazonwebservices-plain-wordmark"></i>
+				<i class="devicon-amazonwebservices-plain-wordmark"></i>
 				<i class="devicon-bootstrap-plain-wordmark"></i>
 				<i class="devicon-css3-plain"></i>
 				<i class="devicon-express-original-wordmark"></i>
@@ -145,9 +145,9 @@ function About() {
 				<i class="devicon-python-plain-wordmark"></i>
 				<i class="devicon-react-original-wordmark"></i>
 				<i class="devicon-vscode-plain-wordmark"></i>
-				<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" alt="" class="devicon"/>
+				{/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" alt="" class="devicon"/> */}
 				<i class="devicon-webpack-plain-wordmark"></i>
-				<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-plain-wordmark.svg" /> */}
+				{/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-plain-wordmark.svg" /> */}
 				<br />
 				<h2>FRONTEND:</h2>
 				<p>
