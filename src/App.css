@@ -6,7 +6,7 @@ section {
   min-height: 90vh;
   display: flex;
   flex-direction: column;
-  margin-bottom: 5vh;
+  margin: 0 5% 5vh 5%;
 }
 
 section > div {
@@ -26,6 +26,7 @@ section > div {
 .portrait {
   max-height: 30vh;
   width: auto;
+  max-width: 90vw;
 }
 
 h1 {
@@ -34,6 +35,7 @@ h1 {
   font-weight: 400;
   font-size: 6rem;
   line-height: 1;
+  color: #1F3541;
 }
 
 .header-left > h1 {
@@ -72,7 +74,7 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background-color: #D4D2CE;
+  background-color: #EDF2F3;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -87,14 +89,31 @@ nav > * {
   padding: 10px;
 }
 
-#about-paragraph {
+#skills-paragraph, #bio {
   font-family: "courier";
   color: "#adbac7";
 }
 
-#about-paragraph > p {
+#bio {
+  width: 70%;
+}
+
+#skills-paragraph > p {
   background-color: "#22272e";
   border: "1px solid black";
+}
+
+#background-circle {
+  z-index: -1000;
+  background-color: rgba(0,0,0,0.2);
+  background-color: #AFD8F2;
+  width: 120vh;
+  height: 120vh;
+  border-radius: 100%;
+  position: absolute;
+  top: -10vh;
+  left: 50vh;
+  margin: 0 auto;
 }
 
 #contact > * {
@@ -140,6 +159,15 @@ nav > * {
 }
 
 @media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #bio {
+    width: 100%;
+  }
   h1 {
     font-size: 3.5rem;
   }

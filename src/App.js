@@ -40,13 +40,13 @@ function Header() {
 				className="expand"
 				href="/"
 				onClick={(e) => {
-					let about = document.getElementById("about");
+					let skills = document.getElementById("skills");
 					e.preventDefault();
-					about && about.scrollIntoView({ behavior: "smooth", block: "end" });
-					window.history.pushState("about", "about", "/about");
+					skills && skills.scrollIntoView({ behavior: "smooth", block: "end" });
+					window.history.pushState("skills", "skills", "/skills");
 				}}
 			>
-				About
+				Skills
 			</a>
 			<a
 				className="expand"
@@ -80,99 +80,105 @@ function Header() {
 
 function Hero() {
 	return (
-    <section id="hero">
-      <div className="header-left">
-        <h1>Full Stack Developer</h1>
-      </div>
-      <div>
-        <img className="portrait" src={me} alt="me" />
-      </div>
-      <div className="hero-bottom">
-        <div>
+		<section id="hero">
+			<div id="background-circle"></div>
+			<div className="header-left">
+				<h1>Full Stack Developer</h1>
+			</div>
+			<div>
+				<div id="bio">
+					<p>
+						### Hi there! I'm Dylan 👋 <br /> <br />I am a full stack (MERN)
+						developer from Washington State.
+					</p>
+					<br />
+					<p>
+						My first exposure to web development was teaching myself basic HTML
+						at 12 years old to create websites for fun. Since then, I've created
+						dozens of websites and apps that make my life easier.
+					</p>
+					<br />
+					<p>
+						In 2021, I began learning data structures & algorithms and advanced
+						web development with Python and MERN technologies via App Academy
+						Open and The Odin Project.
+					</p>
+					<br />
+					<p>
+						In my free time, you can find me in the mountains or waters of the
+						Pacific Northwest, creating music, camping, motorcycling, or tinkering on a
+						new project.
+					</p>
+				</div>
+				<br />
+			</div>
+			<div className="hero-bottom">
+				<div>
 					<a
 						className="expand"
 						href="/"
 						onClick={(e) => {
-							let about = document.getElementById("about");
+							let skills = document.getElementById("skills");
 							e.preventDefault();
-							about && about.scrollIntoView({ behavior: "smooth", block: "end" });
-							window.history.pushState("about", "about", "/about");
+							skills &&
+								skills.scrollIntoView({ behavior: "smooth", block: "end" });
+							window.history.pushState("skills", "skills", "/skills");
 						}}
 					>
-						<img className="downArrow" src={downArrow} alt="Bold arrow pointing down." />
+						<img
+							className="downArrow"
+							src={downArrow}
+							alt="Bold arrow pointing down."
+						/>
 					</a>
-        </div>
-        <div className="header-right">
-          <h1>Dylan Arveson</h1>
-        </div>
-      </div>
-    </section>
+				</div>
+				<div className="header-right">
+					<h1>Dylan Arveson</h1>
+				</div>
+			</div>
+		</section>
 	);
 }
 
-function About() {
+function Skills() {
 
   return (
-		<section id="about">
+		<section id="skills">
 			<div>
-				<h1>About Section</h1>
+				<h1>Skills Section</h1>
 			</div>
-			<div id="about-paragraph">
-				<p>
-					### Hi there! I'm Dylan 👋 <br /> <br />I am a full stack (MERN)
-					developer from Port Townsend, Washington.
-				</p>
-				<br />
-				<p>
-					My first exposure to web development was teaching myself basic HTML at
-					12 years old. Since then, I've created dozens of websites and apps
-					that make my life easier. I had always considered programming a hobby
-					and had never seriously pursued it. Now, 20 years later, it's time to
-					turn what I love doing into a career.
-				</p>
-				<br />
-				<p>
-					My tech stack includes: <br />
-				</p>
+			<div id="skills-paragraph">
 				{/* ICONS */}
-				{/* <i class="devicon-amazonwebservices-plain-wordmark"></i>
+				{/* 
 				<i class="devicon-bootstrap-plain-wordmark"></i>
-				<i class="devicon-css3-plain"></i>
-				<i class="devicon-express-original-wordmark"></i>
-				<i class="devicon-figma-plain"></i>
-				<i class="devicon-firebase-plain"></i>
-				<i class="devicon-git-plain-wordmark"></i>
 				<i class="devicon-graphql-plain-wordmark"></i>
-				<i class="devicon-html5-plain-wordmark"></i>
-				<i class="devicon-javascript-plain"></i>
-				<i class="devicon-jest-plain"></i>
-				<i class="devicon-mongodb-plain-wordmark"></i>
-				<i class="devicon-nodejs-plain-wordmark"></i>
-				<i class="devicon-npm-original-wordmark"></i>
-				<i class="devicon-photoshop-line"></i>
-				<i class="devicon-python-plain-wordmark"></i>
-				<i class="devicon-react-original-wordmark"></i>
-				<i class="devicon-vscode-plain-wordmark"></i>
 				<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" alt="" class="devicon"/>
 				<i class="devicon-webpack-plain-wordmark"></i>
 				<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-plain-wordmark.svg" /> */}
-				<br />
 				<h2>FRONTEND:</h2>
-				<p>React, Material UI, JavaScript ES6, Pug, HTML5, CSS3</p>
+				{/* <p>Material UI, Pug</p> */}
+				<i class="devicon-react-original-wordmark"></i>
+				<i class="devicon-javascript-plain"></i>
+				<i class="devicon-html5-plain-wordmark"></i>
+				<i class="devicon-css3-plain"></i>
+				<br />
 				<br />
 				<h2>BACKEND:</h2>
-				<p>Node.js, Express, MongoDB, Mongoose, Python</p>
+				<i class="devicon-nodejs-plain-wordmark"></i>
+				<i class="devicon-express-original-wordmark"></i>
+				<i class="devicon-mongodb-plain-wordmark"></i>
+				<i class="devicon-python-plain-wordmark"></i>
+				<br />
 				<br />
 				<h2>TOOLS:</h2>
-				<p>AWS, Firebase, Figma, Jest, Git, VS Code, Photoshop</p>
-				<br />
-				<p>In addition, I'm currently enrolled in Google's UX Design course.</p>
-				<br />
-				<p>
-					In my free time, you can find me in the mountains or waters of the
-					Pacific Northwest, creating music, motorcycling, or tinkering on a new
-					project.
-				</p>
+				<i class="devicon-amazonwebservices-plain-wordmark"></i>
+				<i class="devicon-npm-original-wordmark"></i>
+				<i class="devicon-vscode-plain-wordmark"></i>
+				<i class="devicon-figma-plain"></i>
+				<i class="devicon-firebase-plain"></i>
+				<i class="devicon-jest-plain"></i>
+				<i class="devicon-git-plain-wordmark"></i>
+				<i class="devicon-photoshop-line"></i>
 			</div>
 		</section>
 	);
@@ -307,7 +313,7 @@ export default function App() {
       <BrowserRouter>
         <Header />
         <Hero />
-        <About />
+        <Skills />
         <Portfolio />
         <Contact />
       </BrowserRouter>
