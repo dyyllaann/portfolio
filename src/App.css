@@ -52,6 +52,11 @@ h1 {
 
 #hero {
   overflow: hidden;
+  margin: 5vh 0;
+}
+
+#hero > div {
+  margin: 0 5%;
 }
 
 .hero-bottom {
@@ -116,19 +121,19 @@ nav > * {
   border-radius: 100%;
   position: absolute;
   top: -10vh;
-  left: 50vh;
+  right: -10vh;
   margin: 0 auto;
   margin-right: 10px;
   padding-right: 50px;
 }
 
-#circle-container {
+/* #circle-container {
   position: relative;
 }
 
 #circle-container > div {
   overflow-x: hidden;
-}
+} */
 
 #contact > * {
   font-family: Courier, monospace;
