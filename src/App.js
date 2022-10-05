@@ -81,7 +81,9 @@ function Header() {
 function Hero() {
 	return (
 		<section id="hero">
+			{/* <div id="circle-container"> */}
 			<div id="background-circle"></div>
+			{/* </div> */}
 			<div className="header-left">
 				<h1>Full Stack Developer</h1>
 			</div>
