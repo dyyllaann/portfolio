@@ -200,6 +200,8 @@ function Portfolio() {
   return (
 		<section id="portfolio">
 			<h1>Portfolio Section</h1>
+			<p>Note: Many of the projects here are down while I migrate from Heroku to 
+				AWS. Thank you for your patience while I get these live again.</p>
 			<div className="portfolio-grid">
 				<PortfolioCard
 					name={`Members Only / 'HushBook'`}
@@ -212,14 +214,15 @@ function Portfolio() {
 				/>
 				<PortfolioCard
 					name={"Sub Pop Mega Mart Clone"}
-					description={`Clone of Sub Pop's online store, including login and Inventory Management System.`}
+					description={`Clone of Sub Pop's online store, including login and Inventory 
+					Management System. (Currently offline)`}
 					tools={"Express, Node, MongoDB / Mongoose"}
 					image={subPopClone}
 					link="https://sub-pop-clone.herokuapp.com/catalog"
 				/>
 				<PortfolioCard
 					name={"KosmoTime Clone"}
-					description={`Clone of Nicolas Vandenberghe and Martin Plouy's KosmoTime app.`}
+					description={`Clone of Nicolas Vandenberghe and Martin Plouy's KosmoTime app. (Currently offline)`}
 					tools={"React, JavaScript, Vanilla CSS, Node, npm"}
 					image={kosmotimeClone}
 					link="https://kosmotime-clone.herokuapp.com/"
@@ -243,7 +246,7 @@ function Portfolio() {
 				/>
 				<PortfolioCard
 					name={"Weather App"}
-					description={`An app that allows users to access OpenWeatherMap's API to get a real-time weather report.`}
+					description={`An app that allows users to access OpenWeatherMap's API to get a real-time weather report. (Currently offline)`}
 					tools={"JavaScript, HTML, CSS + flex, OpenWeatherMap API"}
 					image={weatherScreen}
 					link="https://github.com/dyyllaann/weather-app"
