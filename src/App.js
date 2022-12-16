@@ -201,7 +201,7 @@ function Portfolio() {
 		<section id="portfolio">
 			<h1>Portfolio Section</h1>
 			<p>Note: Many of the projects here are down while I migrate from Heroku to 
-				AWS. Thank you for your patience while I get these live again.</p>
+				AWS. Thank you for your patience while I get these live again.</p><br />
 			<div className="portfolio-grid">
 				<PortfolioCard
 					name={`Members Only / 'HushBook'`}
