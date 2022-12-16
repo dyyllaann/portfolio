@@ -92,14 +92,17 @@ function Hero() {
 				<div id='background-circle'></div>
 				<div id='bio'>
 					<p>
-						### Hi there! I'm Dylan 👋 <br /> <br />I am a full stack (MERN)
+						Welcome! I'm Dylan 👋 <br /> <br />I am a full stack (MERN)
 						developer from Washington State.
 					</p>
 					<br />
 					<p>
 						My first exposure to web development was teaching myself basic HTML
-						at 12 years old to create websites for fun. Since then, I've created
-						dozens of websites and apps that make my life easier.
+						at 12 years old to create websites for fun. Over the years, I continued
+						developing my skills and applying them to more practical uses. Most 
+						my applications automate some facet of my life. For example, teaching 
+						myself Python in order to calculate matrices in my college Finite Mathematics
+						course, or creating full stack apps to automate some of my workflow.
 					</p>
 					<br />
 					<p>
@@ -109,9 +112,13 @@ function Hero() {
 					</p>
 					<br />
 					<p>
-						In my free time, you can find me in the mountains or waters of the
-						Pacific Northwest, creating music, camping, motorcycling, or tinkering on a
-						new project.
+						Each of the projects I've decided to list here were created from scratch - 
+						no tutorials or walkthroughs here. 
+					</p>
+					<br />
+					<p>
+						Coding truly is a passion of mine and I'm excited to share what I come 
+						up with next!
 					</p>
 				</div>
 				<br />
@@ -191,61 +198,55 @@ function Skills() {
 function Portfolio() {
 
   return (
-		<section id='portfolio'>
+		<section id="portfolio">
 			<h1>Portfolio Section</h1>
-			<div className='portfolio-grid'>
+			<div className="portfolio-grid">
 				<PortfolioCard
 					name={`Members Only / 'HushBook'`}
 					description={
-						'A social media app that allows users to create an account and post anonymously.'
+						"A social media app that allows users to create an account and post anonymously."
 					}
-					tools={'Express, Node, MongoDB / Mongoose'}
+					tools={"MongoDB / Mongoose, Express, Node, Jade MVC"}
 					image={membersScreen}
-					link='https://dyyllaann-members-only.herokuapp.com/'
+					link="https://members-only-production-fee3.up.railway.app/"
 				/>
 				<PortfolioCard
-					name={'Sub Pop Mega Mart Clone'}
-					description={
-						`Clone of Sub Pop's online store, including login and Inventory Management System.`
-					}
-					tools={'Express, Node, MongoDB / Mongoose'}
+					name={"Sub Pop Mega Mart Clone"}
+					description={`Clone of Sub Pop's online store, including login and Inventory Management System.`}
+					tools={"Express, Node, MongoDB / Mongoose"}
 					image={subPopClone}
-					link='https://sub-pop-clone.herokuapp.com/catalog'
+					link="https://sub-pop-clone.herokuapp.com/catalog"
 				/>
 				<PortfolioCard
-					name={'KosmoTime Clone'}
-					description={
-						`Clone of Nicolas Vandenberghe and Martin Plouy's KosmoTime app.`
-					}
-					tools={'React, JavaScript, Vanilla CSS, Node, npm'}
+					name={"KosmoTime Clone"}
+					description={`Clone of Nicolas Vandenberghe and Martin Plouy's KosmoTime app.`}
+					tools={"React, JavaScript, Vanilla CSS, Node, npm"}
 					image={kosmotimeClone}
-					link='https://kosmotime-clone.herokuapp.com/'
+					link="https://kosmotime-clone.herokuapp.com/"
 				/>
 				<PortfolioCard
-					name={'Real Estate Productivity App'}
+					name={"Real Estate Productivity App"}
 					description={
-						'A productivity tool that calculates deadlines, autopopulates a contract summary, and saves the contract summary to PDF.'
+						"A productivity tool that calculates deadlines, autopopulates a contract summary, and saves the contract summary to PDF."
 					}
-					tools={'React, Node, Material UI, pdfmake'}
+					tools={"React, Node, Material UI, pdfmake"}
 					image={reScreen}
-					link='https://main.dvznkfo3mus0h.amplifyapp.com/'
+					link="https://main.dvznkfo3mus0h.amplifyapp.com/"
 				/>
 				<PortfolioCard
-					name={'Browser Dashboard'}
+					name={"Browser Dashboard"}
 					description={
-						'A browser dashboard integrated with Google that shows upcoming events, tasks, and projects. (Currently offline)'
+						"A browser dashboard integrated with Google that shows upcoming events, tasks, and projects. (Currently offline)"
 					}
-					tools={'JavaScript, HTML, CSS, Google Calendar API, Auth0, Moment.js'}
+					tools={"JavaScript, HTML, CSS, Google Calendar API, Auth0, Moment.js"}
 					image={dashScreen}
 				/>
 				<PortfolioCard
-					name={'Weather App'}
-					description={
-						`An app that allows users to access OpenWeatherMap's API to get a real-time weather report.`
-					}
-					tools={'JavaScript, HTML, CSS + flex, OpenWeatherMap API'}
+					name={"Weather App"}
+					description={`An app that allows users to access OpenWeatherMap's API to get a real-time weather report.`}
+					tools={"JavaScript, HTML, CSS + flex, OpenWeatherMap API"}
 					image={weatherScreen}
-					link='https://github.com/dyyllaann/weather-app'
+					link="https://github.com/dyyllaann/weather-app"
 				/>
 			</div>
 		</section>

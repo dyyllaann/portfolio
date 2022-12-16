@@ -59,14 +59,27 @@ h1 {
   margin: 0 5%;
 }
 
+/* .hero-center {
+  animation: center 1s ease-in;
+} */
+
 .hero-bottom {
   display: flex;
   flex: 1;
   justify-content: space-between;
+  animation-name: slide-in;
+  animation-duration: 1.25s;
+  animation-timing-function: ease-out;
 }
 
 .hero-bottom > * {
   margin-top: auto;
+}
+
+.hero-top {
+  animation-name: slide-in;
+  animation-duration: 1.25s;
+  animation-timing-function: ease-out;
 }
 
 i {
@@ -189,5 +202,26 @@ nav > * {
   }
   h1 {
     font-size: 3.5rem;
+  }
+}
+
+@keyframes slide-in {
+  from {margin: -500px 5%;}
+  to {margin: 0 5%;}
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes center {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
