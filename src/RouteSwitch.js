@@ -2,7 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 // import Profile from "./Profile";
 // import Info from "./Info";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
+import Navbar from "./navbar/Navbar";
 
 const RouteSwitch = () => {
 	return (
@@ -11,8 +12,6 @@ const RouteSwitch = () => {
 				<Navbar />
 				<Routes>
 					<Route path="/" element={<App />} />
-					{/* <Route path="/profile" element={<Profile />} /> */}
-					{/* <Route path="/info" element={<Info />} /> */}
 				</Routes>
 			</BrowserRouter>
 		</div>
