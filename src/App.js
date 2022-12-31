@@ -5,12 +5,10 @@ import { BrowserRouter } from 'react-router-dom';
 import PortfolioCard from './PortfolioCard';
 
 // Image imports
-import me from './images/drums.png';
 import downArrow from './images/down-arrow.png';
 import kosmotimeClone from './images/kosmotime-clone.gif';
 import reScreen from './images/re-screen.png';
 import dashScreen from './images/dash-screen.png';
-// import surfScreen from './images/surf-screen.png';
 import membersScreen from './images/members-screen.png';
 import weatherScreen from './images/weather-screen.png';
 import subPopClone from './images/sub-pop-clone.gif';
@@ -22,6 +20,7 @@ function Header() {
     let element = document.getElementById(target);
     element && element.scrollIntoView({ behavior: 'smooth', block: 'end' });
   }, []);
+
   return (
 		<nav>
 			<a
@@ -152,7 +151,6 @@ function Hero() {
 }
 
 function Skills() {
-
   return (
 		<section id='skills'>
 			<div>
@@ -196,7 +194,6 @@ function Skills() {
 }
 
 function Portfolio() {
-
   return (
 		<section id="portfolio">
 			<h1>Portfolio Section</h1>
