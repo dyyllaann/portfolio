@@ -1,15 +1,29 @@
 import downArrow from "./images/down-arrow.png";
+import FullstackAnimation from "./FullstackAnimation";
+import DeveloperAnimation from "./DeveloperAnimation";
 
 export default function Hero() {
 	return (
 		<section id="hero">
 			{/* <div id='circle-container'> */}
 			{/* </div> */}
-			<div className="hero-top">
+
+			{/* <div className="hero-top">
 				<div className="header-left">
 					<h1>Full Stack Developer</h1>
 				</div>
+			</div> */}
+
+			<div>
+				<span>
+					<FullstackAnimation />
+				</span>
+				<br />
+				<span>
+					<DeveloperAnimation />
+				</span>
 			</div>
+
 			<div className="hero-center">
 				<div id="background-circle"></div>
 				<div id="bio">
