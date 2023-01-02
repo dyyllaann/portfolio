@@ -36,8 +36,14 @@ section>div {
 }
 
 .downArrow {
-  height: 6rem;
-  width: auto;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  height: 6em;
+  animation-name: slide-in;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
 }
 
 .portrait {
@@ -83,9 +89,6 @@ h1 {
   display: flex;
   flex: 1;
   justify-content: space-between;
-  /* animation-name: slide-in; */
-  /* animation-duration: 1.25s; */
-  /* animation-timing-function: ease-out; */
 }
 
 .hero-bottom>* {
@@ -224,20 +227,14 @@ nav>* {
 }
 
 @keyframes slide-in {
-  from {
-    margin: -500px 5%;
-  }
-
-  to {
-    margin: 0 5%;
-  }
-
-  50% {
-    opacity: 0;
+  0% {
+    /* margin-bottom: 500px; */
+    transform: translateY(-6em);
   }
 
   100% {
-    opacity: 1;
+    /* margin-bottom: 0; */
+    transform: translateY(0);
   }
 }
 
