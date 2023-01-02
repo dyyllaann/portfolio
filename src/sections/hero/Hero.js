@@ -1,6 +1,8 @@
 import downArrow from "./images/down-arrow.png";
 import FullstackAnimation from "./FullstackAnimation";
 import DeveloperAnimation from "./DeveloperAnimation";
+import DylanAnimation from "./DylanAnimation";
+import ArvesonAnimation from "./ArvesonAnimation";
 
 export default function Hero() {
 	return (
@@ -49,13 +51,8 @@ export default function Hero() {
 					</p>
 					<br />
 					<p>
-						Each of the projects I've decided to list here were created from
-						scratch - no tutorials or walkthroughs here.
-					</p>
-					<br />
-					<p>
-						Coding truly is a passion of mine and I'm excited to share what I
-						come up with next!
+						I'm currently enrolled in University of Washington's Machine Learning 
+						program and Google's UX Design program. 
 					</p>
 				</div>
 				<br />
@@ -81,7 +78,13 @@ export default function Hero() {
 					</a>
 				</div>
 				<div className="header-right">
-					<h1>Dylan Arveson</h1>
+					<span>
+						<DylanAnimation />
+					</span>
+					<br />
+					<span>
+						<ArvesonAnimation />
+					</span>
 				</div>
 			</div>
 		</section>

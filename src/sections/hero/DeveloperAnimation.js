@@ -17,7 +17,7 @@ export default function DeveloperAnimation() {
 }
 
 const animation = keyframes`
-  0% { transform: translateY(6em); }
+  0% { transform: translateY(7.5em); }
   100% { transform: translateY(0) }
 `
 
@@ -26,9 +26,9 @@ const Wrapper = styled.span`
 	overflow: hidden;
 	text-transform: uppercase;
 	font-family: "Helvetica Neue", Geneva, Tahoma, sans-serif;
-	font-weight: 400;
-	font-size: 6em;
-	line-height: 1;
+	font-weight: 500;
+	font-size: 7.5em;
+	line-height: 0.875;
 	color: #1f3541;
 
 	span {

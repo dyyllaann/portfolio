@@ -2,7 +2,7 @@ import React from "react";
 import styled, { keyframes } from 'styled-components';
 
 export default function FullstackAnimation() {
-  const reactArray = "Fullstack".split("");
+  const reactArray = "Dylan".split("");
 
   return (
 		<Wrapper>
@@ -17,7 +17,7 @@ export default function FullstackAnimation() {
 }
 
 const animation = keyframes`
-  0% { transform: translateY(6em); }
+  0% { transform: translateY(7.5em); }
   100% { transform: translateY(0) }
 `
 
@@ -32,7 +32,7 @@ const Wrapper = styled.span`
 	color: #1f3541;
 
 	span {
-		transform: translateY(7.5em);
+		transform: translateY(6em);
 		display: inline-block;
 		animation-name: ${animation};
 		animation-duration: 1s;
@@ -58,21 +58,5 @@ const Wrapper = styled.span`
 
 	span:nth-child(5) {
 		animation-delay: 0.5s;
-	}
-
-	span:nth-child(6) {
-		animation-delay: 0.6s;
-	}
-
-	span:nth-child(7) {
-		animation-delay: 0.7s;
-	}
-
-	span:nth-child(8) {
-		animation-delay: 0.8s;
-	}
-
-	span:nth-child(9) {
-		animation-delay: 0.9s;
 	}
 `;
