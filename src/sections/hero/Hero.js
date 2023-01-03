@@ -38,10 +38,7 @@ export default function Hero() {
 						My first exposure to web development was teaching myself basic HTML
 						at 12 years old to create websites for fun. Over the years, I
 						continued developing my skills and applying them to more practical
-						uses. Most my applications automate some facet of my life. For
-						example, teaching myself Python in order to calculate matrices in my
-						college Finite Mathematics course, or creating full stack apps to
-						automate some of my workflow.
+						uses.
 					</p>
 					<br />
 					<p>
