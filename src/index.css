@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #EDF2F3;
+  background-color: rgb(237, 242, 243);
   margin: 0;
 }
 
@@ -73,6 +73,7 @@ h1 {
 }
 
 #hero {
+  /* background-color: black; */
   overflow: hidden;
   margin: 5vh 0;
 }
@@ -154,15 +155,13 @@ nav>* {
 #background-circle {
   z-index: -100;
   background-color: #AFD8F2;
-  width: 120vh;
-  height: 120vh;
-  border-radius: 100%;
+  width: 100vw;
+  height: 2vh;
+  transform: rotate(-45deg);
   position: absolute;
-  top: -10vh;
-  right: -10vh;
-  margin: 0 auto;
-  margin-right: 10px;
-  padding-right: 50px;
+  top: 40%;
+  left: 20%;
+  display: none;
 }
 
 /* #circle-container {

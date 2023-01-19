@@ -1,3 +1,4 @@
+import React from "react";
 import downArrow from "./images/down-arrow.png";
 import FullstackAnimation from "./FullstackAnimation";
 import DeveloperAnimation from "./DeveloperAnimation";
@@ -7,15 +8,6 @@ import ArvesonAnimation from "./ArvesonAnimation";
 export default function Hero() {
 	return (
 		<section id="hero">
-			{/* <div id='circle-container'> */}
-			{/* </div> */}
-
-			{/* <div className="hero-top">
-				<div className="header-left">
-					<h1>Full Stack Developer</h1>
-				</div>
-			</div> */}
-
 			<div>
 				<span>
 					<FullstackAnimation />
@@ -27,8 +19,8 @@ export default function Hero() {
 			</div>
 
 			<div className="hero-center">
-				<div id="background-circle"></div>
-				<div id="bio">
+				{/* <div id="background-circle"></div> */}
+				{/* <div id="bio">
 					<p>
 						Welcome! I'm Dylan 👋 <br /> <br />I am a full stack (MERN)
 						developer from Washington State.
@@ -51,7 +43,7 @@ export default function Hero() {
 						I'm currently enrolled in University of Washington's Machine Learning 
 						program and Google's UX Design program. 
 					</p>
-				</div>
+				</div> */}
 				<br />
 			</div>
 			<div className="hero-bottom">
